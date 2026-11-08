@@ -1,0 +1,11 @@
+status: PREPARED/UNCOMMITTED
+source_base: 0ef5265495246e3afd4eefc1d0fc815f065a8a69
+source_base_short: 0ef5265
+working_tree_diff_sha256: 3cf6da8e0ec845e93f635487c5acb84f43acf8463ed1d40a659e587e326f91a5
+build_id: PREPARED-UNCOMMITTED base=0ef5265 diff=3cf6da8e0ec845e93f635487c5acb84f43acf8463ed1d40a659e587e326f91a5
+threads: off
+export_preset: Web
+variant_thread_support: false
+godot: 4.7-stable
+hash_method: SHA-256 of (ASCII "BASE " + full HEAD sha + newline + "===DIFF===\n" + `git diff HEAD` of tracked files, taken before build_sha.txt was stamped) then for each untracked design file in path order a header "\n===FILE <path> <nbytes>===\n" plus the file bytes. Untracked files: scripts/player/player_white_fade.gd, its .uid, shaders/player_white_fade.gdshader, its .uid. build_sha.txt is not part of this hash.
+not_included: the previous builds/web export (index.pck 16657404 bytes). This export's index.pck is the file in this folder.

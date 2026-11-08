@@ -1,0 +1,8 @@
+chrome: http://127.0.0.1:8766/index.html?debug_cold=1
+result: gameplay started, snow=on, xy 480 320, panel begins "build PREPARED-UNCOMMITTED base=0ef5265 diff=3cf6da8e0ec845"
+chrome: http://127.0.0.1:8766/index.html?debug_cold=1&qa_snow=0
+result: gameplay started, snow=off, same build line, QA SNOW OFF
+headless: godot --headless -s res://tests/run_tests.gd on this working tree after the stamp
+result: ALL TESTS PASSED
+served_pck_bytes: 16650444
+old_builds_web_pck_bytes: 16657404
