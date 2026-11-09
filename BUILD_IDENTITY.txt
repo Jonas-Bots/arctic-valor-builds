@@ -1,8 +1,0 @@
-status: PREPARED/UNCOMMITTED
-source_base: 0ef5265495246e3afd4eefc1d0fc815f065a8a69
-source_base_short: 0ef5265
-working_tree_diff_sha256: 92f2940863349137e8d21685ae171c07385cd403f6961ec1ee26c0aae10d53a5
-build_id: PREPARED-UNCOMMITTED base=0ef5265 diff=92f2940863349137e8d21685ae171c07385cd403f6961ec1ee26c0aae10d53a5
-pck_bytes: 16659644
-threads: off
-hash_excludes: build_sha.txt
